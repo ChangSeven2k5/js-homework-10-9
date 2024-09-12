@@ -1,0 +1,58 @@
+.container {
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 700px;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+form > .col {
+    margin-bottom: 10px;
+}
+
+.price-count {
+    margin-left: -22px;
+}
+
+input {
+    padding: 4px;
+}
+
+.btn {
+    margin-left: 40%;
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+}
+
+#tbl tr {
+    height: 27px;
+}
+
+#tbl tr th, #tbl tr td {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#tbl tr:last-child td {
+    border: none;
+}
+
+.btn {
+    border: 1px solid black;
+    width: 150px;
+    padding: 10px;
+}
+
+.btn button {
+    padding: 5px;
+}

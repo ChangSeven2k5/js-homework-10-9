@@ -1,0 +1,25 @@
+
+.container {
+    background-color: antiquewhite;
+    width: 600px;
+    margin: 5px;    
+    padding: 10px;
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.col, table {
+    margin-top: 7px;
+}
+
+table {
+    width: 100%;
+}
+
+ thead {
+    background-color: rgb(207, 207, 230);
+}

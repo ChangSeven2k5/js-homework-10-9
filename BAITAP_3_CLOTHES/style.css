@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color:#efeded;
+    width: 50%;
+    margin-left: 20%;
+    border: 2px solid rgb(39, 126, 198);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    padding: 7px;
+    width: 55%;
+    margin-left: 20px;
+}
+
+.pname, .price {
+    margin-left: 40px;
+
+}
+
+.price {
+    margin-left: 50px;
+}
+
+button {
+    background-color: #333333;
+    width: 70px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.row, #table {
+    margin: 20px;
+    margin-left: 100px;
+}
+
+#table {
+    width: 70%;
+}
+
+
+#table th, td {
+    padding: 10px;
+}
+ 
+.head > tr th {
+    background-color: #333;
+    color: #fff;
+}
